@@ -1,2 +1,2 @@
 export * from './client'
-export * from './models/market'
+export * from './models'
