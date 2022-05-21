@@ -20,14 +20,14 @@ npm install predictit.js
 import { predictIt } from '../src'
 
 // Load a list of all the markets
-const allMarkets = await predictIt.allMarkets()
+const allMarkets = await predictIt.stub.allMarkets()
 
 // Load a specific market
-const someMarket = await predictIt.market(12345)
+const someMarket = await predictIt.stub.market(12345)
 
 // Models
 
-interface PredictItMarket {
+interface PredictItMarketStub {
   id: number
   name: string
   shortName: string
@@ -38,7 +38,7 @@ interface PredictItMarket {
   status: `Open` | `Closed`
 }
 
-interface PredictItContract {
+interface PredictItContractStub {
   id: number
   dateEnd: string
   image: string
