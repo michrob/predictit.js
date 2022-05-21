@@ -1,6 +1,6 @@
 {
   "name": "predictit.js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "homepage": "https://github.com/michrob/predictit.js",
   "description": "Unofficial JS Client for PredictIt",
   "main": "./lib/index.js",
